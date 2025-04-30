@@ -9,6 +9,11 @@ def even_list(int_list: List[int]) -> List[int]:
     Returns:
         A list of even integers.
     """
+    a = []
+    for i in int_list:
+        if i%2 == 0:
+            a.append(i)
+    return a
     # TODO: Implement even_list
     pass
 
